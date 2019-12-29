@@ -2,6 +2,8 @@
 <html>
 
 <head>
+    <script src="main.js"></script>
+
     <link rel="stylesheet" href="style css/COURSES.css">
 
 </head>
@@ -41,21 +43,22 @@
 
     <center>
         <h2>Feedback</h2>
-        <button>B</button>
-        <button>I</button>
-        <button>Underline</button>
-        <select>
+        <button onclick="makeBold()">B</button>
+        <button onclick="makeitalics()">I</button>
+        <button onclick="makeunderline()">Underline</button>
+        <select id="selectfontsize" onchange="makebigger()">
             <option>20px</option>
             <option>30px</option>
             <option>40px</option>
         </select>
-        <select>
+        <select id="selectfontfamily" onchange="changefont()">
             <option>Arial</option>
-            <option>Italic</option>
+            <option>Verdana</option>
+            <option>comic sans ms</option>
         </select>
         <form>
             <br>
-            <textarea cols="50" rows="10"></textarea>
+            <textarea id="text" cols="50" rows="10"></textarea>
         </form>
     </center>
 </BODY>
