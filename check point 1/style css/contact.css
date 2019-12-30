@@ -1,0 +1,65 @@
+ul {
+    background-color: darkred;
+    text-align: center;
+    justify-content: space-between;
+}
+
+li {
+    display: inline;
+    font-size: 1, 5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-flex;
+}
+
+li>a {
+    font-size: 2em;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 70px;
+}
+
+li>a:hover {
+    color: red;
+}
+
+.img2 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 0;
+}
+
+body {
+    background-color: rgb(58, 8, 8);
+}
+
+h1 {
+    font-size: 5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-variant: small-caps;
+}
+
+.header {
+    background-image: url("../RES/devphoto.jpg");
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: blur(8px);
+}
+
+#header-text {
+    color: red;
+    position: absolute;
+    z-index: 1000;
+    top: 175px;
+    right: 700px;
+}
+
+label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
