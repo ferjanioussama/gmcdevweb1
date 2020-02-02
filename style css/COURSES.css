@@ -54,7 +54,7 @@ h2 {
 }
 
 .header {
-    background-image: url("../RES/devphoto.jpg");
+    background-image: url("../RES/webdev3.png");
     height: 500px;
     display: flex;
     align-items: center;
@@ -63,7 +63,7 @@ h2 {
 }
 
 #header-text {
-    color: red;
+    color: white;
     position: absolute;
     z-index: 1000;
     top: 175px;
@@ -85,11 +85,59 @@ h2 {
     margin-bottom: 30px;
 }
 
-.images img:hover {
+.items:hover {
     opacity: 0.3;
 }
 
 #text {
     height: 200px;
     width: 400px;
+}
+
+.items {
+    width: 350px;
+    height: 250px;
+    background-size: cover;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#img1 {
+    background-image: url("../RES/mypc.jpg");
+}
+
+#img2 {
+    background-image: url("../RES/devphoto.jpg");
+}
+
+#img3 {
+    background-image: url("../RES/domore.jpg");
+}
+
+#img4 {
+    background-image: url("../RES/statistics.jpg");
+}
+
+#img5 {
+    background-image: url("../RES/online-learning-e-learning-online-education-distance-learning-education-online-course-student-studying-computer-illustration-83348348.jpg");
+}
+
+#img6 {
+    background-image: url("../RES/LEARN.jpg");
+}
+
+#img7 {
+    background-image: url("../RES/learning.png");
+}
+
+#img8 {
+    background-image: url("../RES/Pc.jpg");
+}
+
+#img9 {
+    background-image: url("../RES/work\ pc.jpg");
 }

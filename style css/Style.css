@@ -12,6 +12,7 @@ ul {
 }
 
 li {
+    font-size: 2em;
     display: inline;
     font-size: 1, 5em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -42,39 +43,56 @@ li>a:hover {
     left: 0;
 }
 
-.video {
-    text-align: center;
-    width: 480px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 35px;
-}
+
 
 body {
-    background-color: black;
+    background-color: rgba(31, 0, 0, 0.993);
 }
 
 /* .img3{width:20%;height:20%;margin-left: 10%;} */
-a {
+#viewmore {
     font-size: 150%;
     color: blue;
     text-decoration: none;
 }
 
-a:hover {
+#viewmore:hover {
     color: rgb(0, 183, 255);
     text-decoration: underline;
 }
 
-.container {
+.images {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
-.container img {
+.items {
+    width: 350px;
     height: 250px;
-    width: 250px;
+    background-size: cover;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-right: 30px;
-    border-radius: 15px 15px 15px 15px;
+    margin-bottom: 10px;
+}
 
+#img1 {
+    background-image: url("../RES/mypc.jpg");
+}
+
+#img2 {
+    background-image: url("../RES/devphoto.jpg");
+}
+
+#img3 {
+    background-image: url("../RES/domore.jpg");
+}
+
+.items:hover {
+    opacity: 0.3;
 }

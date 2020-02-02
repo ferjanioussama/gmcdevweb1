@@ -42,7 +42,7 @@ h1 {
 }
 
 .header {
-    background-image: url("../RES/devphoto.jpg");
+    background-image: url("../RES/webdev3.png");
     height: 500px;
     display: flex;
     align-items: center;
@@ -51,7 +51,7 @@ h1 {
 }
 
 #header-text {
-    color: red;
+    color: white;
     position: absolute;
     z-index: 1000;
     top: 175px;
