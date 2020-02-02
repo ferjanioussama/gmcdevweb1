@@ -1,0 +1,12 @@
+.image img {
+    width: 30%;
+    height: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+
+
+}
