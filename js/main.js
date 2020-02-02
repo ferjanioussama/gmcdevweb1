@@ -33,6 +33,15 @@ function changefont() {
     var userfontfamily = document.getElementById("selectfontfamily").value;
     document.getElementById("text").style.fontFamily = userfontfamily;
 
-
-
 }
+
+$(document).ready(function () {
+    $('.items button').css("opacity", "0");
+
+    $(".items").mouseenter(function () {
+        $("#" + this.id + " button").css("opacity", "1");
+    })
+    $(".items").mouseleave(function () {
+        $("#" + this.id + " button").css("opacity", "0");
+    })
+});
