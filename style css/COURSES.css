@@ -141,3 +141,14 @@ h2 {
 #img9 {
     background-image: url("../RES/work\ pc.jpg");
 }
+
+#logo {
+    width: 40px;
+    height: 40px;
+}
+
+.navbar {
+    background-color: darkred;
+    text-align: center;
+    justify-content: space-between;
+}

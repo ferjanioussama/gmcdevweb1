@@ -63,3 +63,29 @@ label {
     justify-content: center;
     align-items: center;
 }
+
+#logo {
+    widows: 40px;
+    height: 40px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.form-container form {
+    padding: 10px;
+    margin: 20px;
+}
+
+.input {
+    color: white;
+}
+
+.navbar {
+    background-color: darkred;
+    text-align: center;
+    justify-content: space-between;
+}
